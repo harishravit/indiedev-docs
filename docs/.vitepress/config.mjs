@@ -14,7 +14,7 @@ export default defineConfig({
   vite: {
     plugins: [groupIconVitePlugin()],
   },
-  title: "Learn-web-with-me",
+  title: "indiedev.",
   description:
     "This is free web development guide platform for future developers",
   appearance: "dark",
