@@ -142,5 +142,6 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
-docs/.vitepress
+docs/.vitepress/cache
+docs/.vitepress/build
 docs/frontend
