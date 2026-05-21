@@ -33,7 +33,7 @@ assigns a type based on the value.
 - Here, I declare a variable called `name` and assign the value `"hello world"`. Now the variable type is `string`.
 - Later, if we change the value from `string` to `number`, JavaScript automatically changes the type.
 
-```js
+```js:line-numbers {2,5} [index.js]
 let name = "hello world";
 console.log(typeof name); // string
 
@@ -47,7 +47,7 @@ Here, the same variable changes from string to number.
 
 - Here, I try the same code using TypeScript. You can see TypeScript throws this error:
 
-```ts:line-numbers
+```ts:line-numbers [index.ts]
 let name: string = "hello world";
 
 name = 10;
@@ -93,7 +93,7 @@ so this reson developers love typescript.
 - During compilation, all TypeScript-related syntax is removed
 - because TypeScript only helps during development/build time, it does't help on runtime.
 
-```ts:line-numbers {4}
+```ts:line-numbers {4} [index.ts]
 const heyThere: string = "Can you easily understand this documentation?";
 
 //Compiled JavaScript Code
